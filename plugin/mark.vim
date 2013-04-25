@@ -320,13 +320,13 @@ if !hasmapto('<Plug>MarkSet', 'v')
 	xmap <unique> <Leader>m <Plug>MarkSet
 endif
 if !hasmapto('<Plug>MarkRegex', 'n')
-	nmap <unique> <Leader>r <Plug>MarkRegex
+	nmap <unique> <Leader>g <Plug>MarkRegex
 endif
 if !hasmapto('<Plug>MarkRegex', 'v')
-	xmap <unique> <Leader>r <Plug>MarkRegex
+	xmap <unique> <Leader>g <Plug>MarkRegex
 endif
 if !hasmapto('<Plug>MarkClear', 'n')
-	nmap <unique> <Leader>n <Plug>MarkClear
+	nmap <unique> <Leader>c <Plug>MarkClear
 endif
 " No default mapping for <Plug>MarkAllClear.
 " No default mapping for <Plug>MarkToggle.
