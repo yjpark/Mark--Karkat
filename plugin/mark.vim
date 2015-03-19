@@ -319,15 +319,15 @@ endif
 if !hasmapto('<Plug>MarkSet', 'v')
 	xmap <unique> <Leader>m <Plug>MarkSet
 endif
-if !hasmapto('<Plug>MarkRegex', 'n')
-	nmap <unique> <Leader>g <Plug>MarkRegex
-endif
-if !hasmapto('<Plug>MarkRegex', 'v')
-	xmap <unique> <Leader>g <Plug>MarkRegex
-endif
-if !hasmapto('<Plug>MarkClear', 'n')
-	nmap <unique> <Leader>c <Plug>MarkClear
-endif
+" if !hasmapto('<Plug>MarkRegex', 'n')
+" 	nmap <unique> <Leader>g <Plug>MarkRegex
+" endif
+" if !hasmapto('<Plug>MarkRegex', 'v')
+" 	xmap <unique> <Leader>g <Plug>MarkRegex
+" endif
+" if !hasmapto('<Plug>MarkClear', 'n')
+" 	nmap <unique> <Leader>c <Plug>MarkClear
+" endif
 " No default mapping for <Plug>MarkAllClear.
 " No default mapping for <Plug>MarkToggle.
 
@@ -343,12 +343,12 @@ endif
 if !hasmapto('<Plug>MarkSearchAnyPrev', 'n')
 	nmap <unique> <Leader>? <Plug>MarkSearchAnyPrev
 endif
-if !hasmapto('<Plug>MarkSearchNext', 'n')
-	nmap <unique> * <Plug>MarkSearchNext
-endif
-if !hasmapto('<Plug>MarkSearchPrev', 'n')
-	nmap <unique> # <Plug>MarkSearchPrev
-endif
+" if !hasmapto('<Plug>MarkSearchNext', 'n')
+" 	nmap <unique> * <Plug>MarkSearchNext
+" endif
+" if !hasmapto('<Plug>MarkSearchPrev', 'n')
+" 	nmap <unique> # <Plug>MarkSearchPrev
+" endif
 
 
 
